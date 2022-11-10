@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp
+  routes:
+    - route: python-5678-pina-6344.cfapps.us10-001.hana.ondemand.com
+  path: ./
+  memory: 128M
+  buildpack: python_buildpack
+  command: python server.py
